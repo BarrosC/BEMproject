@@ -1,0 +1,39 @@
+<main class="home-component default-page container">
+  <section class="main-description">
+    <h3 class="default-page__title">O que é BEM?</h3>
+
+    <p class="default-page__text">
+      A sigla BEM significa block, element, modifier e segue essas propriedades para definir uma nova metodologia de criação de nomes para classes de folhas de estilo.
+      <br><br>
+      A estrutura é simples:
+      <br><br>
+      .elementopai, .elementopai__filho, .elementopai__filho--primeiro
+    </p>
+
+    <h3 class="default-page__title">Como assim?</h3>
+
+    <p class="default-page__text">
+      As marcas registradas da estruturação BEM são o uso do “__” e do “--“: sendo que o primeiro define um elemento (filho do elemento pai), e o segundo define um modificador.
+      <br><br>
+      Na prática:
+    </p>
+
+    <pre class="default-page__code">
+      .formcontent (elemento pai)
+      .formcontent__field (elemento filho)
+      .formcontent__field--first (elemento filho modificado)
+    </pre>
+
+    <p class="default-page__text">
+      Visualizando a estrutura HTML:
+    </p>
+
+    <pre class="default-page__code">
+      {{htmlCode}}
+    </pre>
+
+  </section>
+  <section class="cards-container">
+    <app-cards></app-cards>
+  </section>
+</main>
